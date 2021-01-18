@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iportTimers/static/css/main.9bd0c16f.chunk.css",
+    "main.js": "/iportTimers/static/js/main.9d4c4317.chunk.js",
+    "main.js.map": "/iportTimers/static/js/main.9d4c4317.chunk.js.map",
+    "runtime-main.js": "/iportTimers/static/js/runtime-main.6e5c54f4.js",
+    "runtime-main.js.map": "/iportTimers/static/js/runtime-main.6e5c54f4.js.map",
+    "static/js/2.fe4ce05e.chunk.js": "/iportTimers/static/js/2.fe4ce05e.chunk.js",
+    "static/js/2.fe4ce05e.chunk.js.map": "/iportTimers/static/js/2.fe4ce05e.chunk.js.map",
+    "static/js/3.d0dfe216.chunk.js": "/iportTimers/static/js/3.d0dfe216.chunk.js",
+    "static/js/3.d0dfe216.chunk.js.map": "/iportTimers/static/js/3.d0dfe216.chunk.js.map",
+    "index.html": "/iportTimers/index.html",
+    "static/css/main.9bd0c16f.chunk.css.map": "/iportTimers/static/css/main.9bd0c16f.chunk.css.map",
+    "static/js/2.fe4ce05e.chunk.js.LICENSE.txt": "/iportTimers/static/js/2.fe4ce05e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e5c54f4.js",
+    "static/js/2.fe4ce05e.chunk.js",
+    "static/css/main.9bd0c16f.chunk.css",
+    "static/js/main.9d4c4317.chunk.js"
+  ]
+}
