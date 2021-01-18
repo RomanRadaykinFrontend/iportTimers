@@ -1,0 +1,103 @@
+.App {
+    margin: 0 auto;
+}
+
+.expressButton, .usualButton, .buttonDel {
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 26px;
+    text-decoration: none;
+    outline: none;
+}
+
+.expressButton:active, .usualButton:active, .buttonDel:active {
+    position: relative;
+    top: 1px;
+}
+
+.expressButton, .buttonDel {
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+    background-color: #fc8d83;
+    border: 3px solid #d83526;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #b23e35;
+}
+
+
+.expressButton:hover, buttonDel:hover {
+    background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+    background-color: #e4685d;
+}
+
+
+.usualButton {
+    box-shadow: inset 0px 1px 0px 0px #3dc21b;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border: 3px solid #18ab29;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.usualButton:hover {
+    background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    background-color: #5cbf2a;
+}
+
+.inputStyle {
+    border-style: solid;
+    padding: 11px;
+    font-size: 18px;
+    border-width: 4px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 7px 0px rgba(42, 42, 42, .72);
+    text-shadow: 0px 0px 0px rgba(42, 42, 42, .75);
+    background-color: #f7f7f7;
+    border-color: #b094b0;
+}
+
+.inputStyle:focus {
+    outline: none;
+}
+
+.controlsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+}
+
+.item{
+    margin: 0 5px;
+}
+
+.timersWrapper>div{
+    width: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+}
+
+.spanWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.spanWrapper>div>span{
+    font-size: 40px;
+}
+
+.nameOfOrder{
+    font-weight: bold;
+    color: #b094b0;
+}
